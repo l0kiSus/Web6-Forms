@@ -26,14 +26,12 @@ form {
     gap: 18px;
 }
 
-/* Two-column grid layout */
 .two-col {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
-/* Form styling */
 .form-group {
     display: flex;
     flex-direction: column;
@@ -58,7 +56,6 @@ textarea {
     resize: none;
 }
 
-/* Inline radio/checkbox layout */
 .inline-list {
     display: flex;
     gap: 12px;
@@ -70,7 +67,6 @@ textarea {
     color: #555;
 }
 
-/* Slider + value box */
 .income-wrapper {
     display: flex;
     align-items: center;
@@ -85,7 +81,6 @@ textarea {
     font-size: 13px;
 }
 
-/* Submit Button */
 .create-btn {
     background: #1abc9c;
     padding: 10px 20px;
@@ -100,3 +95,4 @@ textarea {
 .create-btn:hover {
     background: #18a57f;
 }
+
